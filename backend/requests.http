@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/calculators/compound-interest
+Content-Type: application/json
+
+{
+  "initialCapital": 100,
+  "annualRate": 7,
+  "years": 40,
+  "monthlyContribution": 50
+}
